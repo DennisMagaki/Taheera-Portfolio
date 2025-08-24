@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import Navigation from "@/components/Navigation";
 import { Play, Clock, Users, Target, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
+import PitchVideo from "./WhatsApp Video 2025-08-24 at 18.07.12_3bbc82e3.mp4"
 
 const ElevatorPitch = () => {
   return (
@@ -38,7 +39,7 @@ const ElevatorPitch = () => {
                 {/* Local Video Player */}
                 <div className="relative z-20 aspect-video">
                   <video
-                    src="WhatsApp Video 2025-08-24 at 18.07.12_3bbc82e3.mp4"
+                    src={PitchVideo}
                     controls
                     className="w-full h-full rounded-lg"
                   />
