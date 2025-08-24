@@ -32,19 +32,16 @@ const ElevatorPitch = () => {
 
             <CardContent className="text-center py-8">
               <div className="bg-muted rounded-lg overflow-hidden relative shadow-md">
-                {/* Gradient overlay for style consistency */}
+                {/* Gradient overlay for style */}
                 <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-accent/10 z-10 pointer-events-none"></div>
 
-                {/* Video Embed */}
+                {/* Local Video Player */}
                 <div className="relative z-20 aspect-video">
-                  <iframe
-                    src="https://www.youtube.com/embed/CmvgkUqv0AQ?si=0vAwPn_DF3iC6OaB" // replace with actual link
-                    title="Elevator Pitch Video"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
+                  <video
+                    src="/src/assets/WhatsApp Video 2025-08-24 at 18.07.12_3bbc82e3.mp4"
+                    controls
                     className="w-full h-full rounded-lg"
-                  ></iframe>
+                  />
                 </div>
               </div>
 
