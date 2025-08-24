@@ -38,7 +38,7 @@ const ElevatorPitch = () => {
                 {/* Local Video Player */}
                 <div className="relative z-20 aspect-video">
                   <video
-                    src="/src/assets/WhatsApp Video 2025-08-24 at 18.07.12_3bbc82e3.mp4"
+                    src="WhatsApp Video 2025-08-24 at 18.07.12_3bbc82e3.mp4"
                     controls
                     className="w-full h-full rounded-lg"
                   />
