@@ -38,7 +38,7 @@ const ElevatorPitch = () => {
                 {/* Video Embed */}
                 <div className="relative z-20 aspect-video">
                   <iframe
-                    src="https://youtu.be/CmvgkUqv0AQ?si=0vAwPn_DF3iC6OaB" // replace with actual link
+                    src="https://www.youtube.com/embed/CmvgkUqv0AQ?si=0vAwPn_DF3iC6OaB" // replace with actual link
                     title="Elevator Pitch Video"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
