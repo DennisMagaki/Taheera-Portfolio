@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import Navigation from "@/components/Navigation";
 import { Link } from "react-router-dom";
 import { Plane, Award, Users, Briefcase } from "lucide-react";
-import heroImage from "@/assets/hero-bg.jpg";
+import heroImage from "@/assets/profile.jpg";
 
 const Index = () => {
   return (
@@ -13,18 +13,20 @@ const Index = () => {
       {/* Hero Section */}
       <section className="pt-20 min-h-screen flex items-center justify-center relative overflow-hidden">
         <div 
-          className="absolute inset-0 bg-cover bg-center opacity-10"
+          className="absolute inset-0 bg-cover bg-center z-0"
           style={{ backgroundImage: `url(${heroImage})` }}
         />
-        <div className="container mx-auto px-6 text-center relative z-10">
-          <div className="max-w-4xl mx-auto">
+        {/* Add overlay */}
+        <div className="absolute top-0 right-0 w-1/2 bg-black opacity-50 z-1 h-screen"></div>
+        <div className="mr-[-550px] px-3 text-right relative z-10">
+          <div className="max-w-4xl">
             <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-primary via-primary-glow to-accent bg-clip-text text-transparent animate-fade-in">
               Taheera Berita Mullyh
             </h1>
-            <p className="text-2xl md:text-3xl text-muted-foreground mb-12 leading-relaxed">
-              Aspiring Entrepreneur • Future Therapist • Air Traffic Control Specialist
+            <p className="text-2xl md:text-2xl text-gray-300 mb-12 leading-relaxed">
+              Aspiring Entrepreneur • Future Therapist • <br />Air Traffic Control Specialist
             </p>
-            <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16">
+            <div className="flex flex-col sm:flex-col gap-6 justify-center mb-16">
               <Link to="/bio">
                 <Button variant="hero" size="lg" className="min-w-48">
                   Discover My Journey

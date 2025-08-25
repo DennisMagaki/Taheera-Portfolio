@@ -1,13 +1,20 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import Navigation from "@/components/Navigation";
-import { GraduationCap, Award, Plane, Trophy, Heart, Briefcase } from "lucide-react";
+import {
+  GraduationCap,
+  Award,
+  Plane,
+  Trophy,
+  Heart,
+  Briefcase,
+} from "lucide-react";
 
 const Bio = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-background via-background to-secondary">
       <Navigation />
-      
+
       <main className="pt-24 pb-16">
         <div className="container mx-auto px-6">
           {/* Header */}
@@ -15,8 +22,25 @@ const Bio = () => {
             <h1 className="text-5xl font-bold mb-6 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
               About Taheera
             </h1>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              A driven student with diverse aspirations, academic excellence, and a passion for innovation across multiple industries.
+            <p className="text-xl text-muted-foreground max-w-7xl mx-auto leading-relaxed">
+              I am Taheera Berita, a graduate in Media & Digital Communications
+              from Zetech University and International Relations from
+              USIU-Africa. Among the Global Challenge Goals, I resonate most
+              with climate change, because I believe solving it can unlock
+              solutions to many other global issues. My journey is shaped by a
+              unique blend of passions: as a therapist, I am driven by
+              compassion and the desire to help people heal and grow; as an air
+              traffic controller, I thrive on precision, focus, and
+              responsibility in high-stakes environments. These dual paths
+              reflect who I am—someone equally grounded in empathy and
+              discipline. My passion for technology has led me to pursue
+              software engineering—both to expand my career opportunities in a
+              field often seen as male-dominated, and to create solutions that
+              matter. I aspire to build platforms that democratize learning for
+              marginalized communities and tools that track carbon footprints,
+              optimize energy use, and support climate modeling. Beyond my work,
+              I am a bookworm and an ambivert who enjoys balancing quiet
+              reflection with meaningful connections.
             </p>
           </div>
 
@@ -33,13 +57,18 @@ const Bio = () => {
                 <div className="flex flex-wrap gap-2 mb-4">
                   <Badge variant="secondary">Zetech University</Badge>
                   <Badge variant="secondary">USIU-Africa</Badge>
-                  <Badge className="bg-accent text-accent-foreground">Valedictorian</Badge>
-                  <Badge className="bg-accent text-accent-foreground">First-Class Honours</Badge>
+                  <Badge className="bg-accent text-accent-foreground">
+                    Valedictorian
+                  </Badge>
+                  <Badge className="bg-accent text-accent-foreground">
+                    First-Class Honours
+                  </Badge>
                 </div>
                 <p className="text-muted-foreground leading-relaxed">
-                  Currently pursuing studies at both Zetech University and USIU-Africa, 
-                  set to graduate as valedictorian with first-class honours. This achievement 
-                  reflects dedication to academic excellence and a commitment to lifelong learning.
+                  Currently pursuing studies at both Zetech University and
+                  USIU-Africa, set to graduate as valedictorian with first-class
+                  honours. This achievement reflects dedication to academic
+                  excellence and a commitment to lifelong learning.
                 </p>
               </CardContent>
             </Card>
@@ -58,9 +87,9 @@ const Bio = () => {
                   <Badge variant="outline">International Tournament</Badge>
                 </div>
                 <p className="text-muted-foreground leading-relaxed">
-                  Proudly represented Kenya in a chess competition in Namibia, showcasing 
-                  strategic thinking, mental resilience, and the ability to perform under 
-                  pressure on an international stage.
+                  Proudly represented Kenya in a chess competition in Namibia,
+                  showcasing strategic thinking, mental resilience, and the
+                  ability to perform under pressure on an international stage.
                 </p>
               </CardContent>
             </Card>
@@ -69,7 +98,9 @@ const Bio = () => {
           {/* Career Aspirations */}
           <Card className="mb-12 hover:shadow-xl transition-all duration-300">
             <CardHeader>
-              <CardTitle className="text-3xl text-center mb-6">Career Aspirations</CardTitle>
+              <CardTitle className="text-3xl text-center mb-6">
+                Career Aspirations
+              </CardTitle>
             </CardHeader>
             <CardContent>
               <div className="grid md:grid-cols-3 gap-8">
@@ -77,23 +108,28 @@ const Bio = () => {
                   <Briefcase className="w-16 h-16 text-primary mx-auto mb-4 group-hover:scale-110 transition-transform" />
                   <h3 className="text-xl font-semibold mb-3">Entrepreneur</h3>
                   <p className="text-muted-foreground">
-                    Aspiring to start and build successful businesses that create value and solve real-world problems.
+                    Aspiring to start and build successful businesses that
+                    create value and solve real-world problems.
                   </p>
                 </div>
-                
+
                 <div className="text-center group">
                   <Heart className="w-16 h-16 text-accent mx-auto mb-4 group-hover:scale-110 transition-transform" />
                   <h3 className="text-xl font-semibold mb-3">Therapist</h3>
                   <p className="text-muted-foreground">
-                    Passionate about mental health and helping others overcome challenges through professional therapy.
+                    Passionate about mental health and helping others overcome
+                    challenges through professional therapy.
                   </p>
                 </div>
-                
+
                 <div className="text-center group">
                   <Plane className="w-16 h-16 text-primary-glow mx-auto mb-4 group-hover:scale-110 transition-transform" />
-                  <h3 className="text-xl font-semibold mb-3">Air Traffic Controller</h3>
+                  <h3 className="text-xl font-semibold mb-3">
+                    Air Traffic Controller
+                  </h3>
                   <p className="text-muted-foreground">
-                    Drawn to the aviation industry with goals of ensuring safe and efficient air traffic management.
+                    Drawn to the aviation industry with goals of ensuring safe
+                    and efficient air traffic management.
                   </p>
                 </div>
               </div>
@@ -110,15 +146,24 @@ const Bio = () => {
             </CardHeader>
             <CardContent>
               <div className="flex flex-wrap gap-2 mb-4">
-                <Badge className="bg-primary text-primary-foreground">Drone Technology</Badge>
-                <Badge className="bg-primary text-primary-foreground">Environmental Innovation</Badge>
-                <Badge className="bg-primary text-primary-foreground">Carbon Emissions</Badge>
+                <Badge className="bg-primary text-primary-foreground">
+                  Drone Technology
+                </Badge>
+                <Badge className="bg-primary text-primary-foreground">
+                  Environmental Innovation
+                </Badge>
+                <Badge className="bg-primary text-primary-foreground">
+                  Carbon Emissions
+                </Badge>
               </div>
               <p className="text-muted-foreground leading-relaxed text-lg">
-                Currently developing innovative drone technology specifically designed to combat harmful carbon emissions. 
-                This project demonstrates a commitment to environmental sustainability and showcases technical expertise 
-                in emerging technologies. The initiative reflects a forward-thinking approach to addressing global 
-                environmental challenges through practical technological solutions.
+                Currently developing innovative drone technology specifically
+                designed to combat harmful carbon emissions. This project
+                demonstrates a commitment to environmental sustainability and
+                showcases technical expertise in emerging technologies. The
+                initiative reflects a forward-thinking approach to addressing
+                global environmental challenges through practical technological
+                solutions.
               </p>
             </CardContent>
           </Card>
