@@ -22,7 +22,6 @@ const App = () => (
           <Route path="/bio" element={<Bio />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/elevator-pitch" element={<ElevatorPitch />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
